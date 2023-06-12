@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI there</title>
+</head>
+
+<body>
+    <h1>HI guys how are YOU doing</h1>
+
+    <form>
+        <div>
+            <label for="mail">email:</label>
+            <input type='email' id='mail' placeholder="enter your email">
+        </div>
+
+        <div>
+            <label for="name">Name: </label>
+            <input type='text' id='name' placeholder="enter your Name">
+        </div>
+
+        <div>
+            <label for="rg">Select</label>
+            <input type='range' id='rg' min=1 max=10>
+        </div>
+        <div>
+            <label for="pol">Sex </label>
+            <select id="pol">
+                <option value="m">Man</option>
+                <option value="w" selected>Woman</option>
+
+            </select>
+        </div>
+
+
+
+        <input type='checkbox' id=1 name='try'>
+        <label for=1>1 </label>
+        <input type='checkbox' id=2 name='try'>
+        <label for=2>2 </label>
+        <input type='checkbox' id=3 name='try'>
+        <label for=3>3 </label>
+        <input type='checkbox' id=4 name='try'>
+        <label for="4">4 </label>
+
+        <br>
+        <input type='radio' id='r1' name='r'>
+        <label for='r1'> First</label>
+        <br>
+        <input type='radio' id='r2' name='r'>
+        <label for='r2'> Second</label>
+
+        <br>
+        <input type='radio' id='r3' name='r'>
+        <label for='r3'> Third</label>
+        <br>
+        <input type='radio' id='r4' name='r'>
+        <label for='r4'> Fourth</label>
+        </div>
+
+        <div>
+            <label for="DB">Enter you birthdate</label>
+            <input type='date' id='db'>
+
+        </div>
+        <div>
+            <label for="mess">Message</label>
+            <br>
+            <textarea id='mess' cols=26 rows=5 placeholder="enter your message"></textarea>
+        </div>
+
+        <input type='submit' value='SEND'>
+        <input type='button' value='отправить форму'>
+    </form>
+
+    <script src='./main.js'> </script>
+</body>
