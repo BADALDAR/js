@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Stalinist+One&display=swap');
+body {
+	font-family: Stalinist One, 'Times New Roman', Times, serif;
+}
+h1 {
+	font-family: Comfortaa;
+	text-decoration: overline underline;
+	line-height: 125%;
+	word-spacing: 10px;
+}

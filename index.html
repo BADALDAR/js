@@ -4,12 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta n>
     <title>HI there</title>
 </head>
 
 <body>
-    <h1>HI guys how are YOU doing</h1>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+
+    <h1>HI guys, how are YOU doing</h1>
+    <div class='info'>
+        меня зовут Бадмаев Алдар инструктор по сноуборду и горным лыжам
+    </div>
+    <img class='Photo' src='./like Khabib.jpg' width='200' alt="it`s me">
     <form>
         <div>
             <label for="mail">email:</label>
@@ -28,51 +40,51 @@
         <div>
             <label for="pol">Sex </label>
             <select id="pol">
-                <option value="m">Man</option>
-                <option value="w" selected>Woman</option>
-
+                <option value="m">woman</option>
+                <option value="w">man</option>
+                <option value="other" selected>other</option>
             </select>
         </div>
 
-
-
-        <input type='checkbox' id=1 name='try'>
-        <label for=1>1 </label>
-        <input type='checkbox' id=2 name='try'>
-        <label for=2>2 </label>
-        <input type='checkbox' id=3 name='try'>
-        <label for=3>3 </label>
-        <input type='checkbox' id=4 name='try'>
-        <label for="4">4 </label>
-
-        <br>
-        <input type='radio' id='r1' name='r'>
-        <label for='r1'> First</label>
-        <br>
-        <input type='radio' id='r2' name='r'>
-        <label for='r2'> Second</label>
-
-        <br>
-        <input type='radio' id='r3' name='r'>
-        <label for='r3'> Third</label>
-        <br>
-        <input type='radio' id='r4' name='r'>
-        <label for='r4'> Fourth</label>
+        <div class='check'>
+            <input type='checkbox' id=1 name='try'>
+            <label for=1>1 </label>
+            <input type='checkbox' id=2 name='try'>
+            <label for=2>2 </label>
+            <input type='checkbox' id=3 name='try'>
+            <label for=3>3 </label>
+            <input type='checkbox' id=4 name='try'>
+            <label for="4">4 </label>
         </div>
+        <article id='art'>
 
-        <div>
-            <label for="DB">Enter you birthdate</label>
+            <input type='radio' id='r1' name='r'>
+            <label for='r1'> First</label>
+            <br>
+            <input type='radio' id='r2' name='r'>
+            <label for='r2'> Second</label>
+
+            <br>
+            <input type='radio' id='r3' name='r'>
+            <label for='r3'> Third</label>
+            <br>
+            <input type='radio' id='r4' name='r'>
+            <label for='r4'> Fourth</label>
+        </article>
+
+        <div class="bd">
+            <label for="DB">Enter you birthday</label>
             <input type='date' id='db'>
 
         </div>
         <div>
-            <label for="mess">Message</label>
+            <label class='bd bold' for="mess">send message to me</label>
             <br>
-            <textarea id='mess' cols=26 rows=5 placeholder="enter your message"></textarea>
+            <textarea id='mess' cols=30 rows=5 placeholder="enter your message"></textarea>
         </div>
 
         <input type='submit' value='SEND'>
-        <input type='button' value='отправить форму'>
+        <!-- <input type='button' value='отправить форму'> -->
     </form>
 
     <script src='./main.js'> </script>
