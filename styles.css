@@ -1,6 +1,7 @@
 h1 {
 	color: darkcyan;
 	letter-spacing: 1px;
+	text-align: center;
 }
 body {
 	background-color: rgb(177, 175, 169);
@@ -8,9 +9,10 @@ body {
 	color: brown;
 }
 .info {
-	margin-top: 50px;
-	margin-left: 150px;
-	display: block;
+	width: 100%;
+	margin: 10px 50px;
+	text-align: center;
+	display:flex;
 	font-family: 'Courier New', Courier, monospace;
 	@media (max-width: 600px) {
 		display: block;
